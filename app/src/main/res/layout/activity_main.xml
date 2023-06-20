@@ -16,7 +16,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/baseline_person_24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etusername"
@@ -34,7 +35,8 @@
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tilusername">
+        app:layout_constraintTop_toBottomOf="@+id/tilusername"
+        app:startIconDrawable="@drawable/baseline_phone_24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etphoneno"
@@ -52,7 +54,8 @@
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tilphoneno">
+        app:layout_constraintTop_toBottomOf="@+id/tilphoneno"
+        app:startIconDrawable="@drawable/baseline_email_24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etemail"
@@ -70,7 +73,8 @@
         android:layout_marginEnd="1dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tilemail">
+        app:layout_constraintTop_toBottomOf="@+id/tilemail"
+        app:startIconDrawable="@drawable/baseline_compass_calibration_24">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etpassword"
